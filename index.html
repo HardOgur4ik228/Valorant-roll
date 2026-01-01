@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VALORANT AGENT ROLL</title>
+  <title>VALORANT ROLL</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
 <canvas id="fx"></canvas>
 
 <div class="app">
-  <h1>VALORANT AGENT ROLL</h1>
-  <div class="subtitle">Испытай удачу</div>
+  <h1>VALORANT ROLL</h1>
+  <div class="subtitle">гача без доната</div>
 
   <div class="card" id="card">
     <div class="result" id="result">НАЖМИ РОЛЛ</div>
@@ -20,10 +20,16 @@
 
   <div class="roles" id="roles"></div>
 
-  <button class="roll-btn" id="rollBtn">🎲 ВРАЩАТЬ</button>
+  <div class="controls">
+    <button id="roll">🎲 ROLL</button>
+    <button id="roll10">🎲 x10</button>
+    <button id="daily">🎁 DAILY</button>
+    <button id="reset">♻ RESET</button>
+  </div>
 
   <div class="stats" id="stats"></div>
   <div class="history" id="history"></div>
+  <div class="achievements" id="achievements"></div>
 </div>
 
 <script src="script.js"></script>
